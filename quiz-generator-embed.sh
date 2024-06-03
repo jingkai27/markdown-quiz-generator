@@ -1,0 +1,1 @@
+python3 quiz-generator.py embed
