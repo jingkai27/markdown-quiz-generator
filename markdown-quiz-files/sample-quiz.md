@@ -15,5 +15,17 @@
     - [ ] Gauge
 	- [ ] Selenium
 
-4. Who is the Co-Founder of MaxSoft?
-    - R:= Osanda
+
+
+5. MCQ Question 
+    - ( ) Option 1
+    - ( ) Option 2
+    - ( ) Option 3
+    - (x) Correct Answer
+
+6. True False Question
+    - (x) True [Correct]
+    - ( ) False 
+
+7. Short answer questions?
+    - R:= correct_answer

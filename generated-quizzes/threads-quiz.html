@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        code, pre {
+            font-family: monospace;
+        }
+        h1 code,
+        h2 code,
+        h3 code,
+        h4 code,
+        h5 code,
+        h6 code {
+            font-size: inherit;
+        }
+        ul li {
+            list-style-type: none;
+        }
+        table {
+        @extend .table;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <h1>Week 3 Threads Quiz</h1>
+<h2>Multiple Choice Questions</h2>
+<ol>
+<li>
+<p>What is a thread in the context of an operating system?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A process with a single execution sequence</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> A mechanism for interprocess communication</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> A component of a Process Control Block (PCB)</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> The smallest unit of processing that can be scheduled by the operating system</label></li>
+</ul>
+</li>
+<li>
+<p>Which of the following is true about threads within the same process?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> They have separate memory spaces</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> They cannot run concurrently</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> They do not share data</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> They share the same memory and resources</label></li>
+</ul>
+</li>
+<li>
+<p>What is the primary benefit of using threads over multiple processes?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> Improved security</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Simplified scheduling</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Increased memory usage</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Reduced context switching overhead</label></li>
+</ul>
+</li>
+<li>
+<p>Which type of threading involves the operating system kernel managing the threads?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> User-level threading</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Hybrid threading</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> None of the above</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Kernel-level threading</label></li>
+</ul>
+</li>
+<li>
+<p>What is a disadvantage of user-level threads compared to kernel-level threads?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> Higher context switching overhead</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Increased complexity in thread management</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Less efficient communication between threads</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> Cannot take advantage of multiprocessor systems directly</label></li>
+</ul>
+</li>
+</ol>
+<h2>True/False Questions</h2>
+<ol>
+<li>
+<p>Threads within the same process share the same address space.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+<li>
+<p>Context switching between threads is generally more expensive than between processes.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+<li>
+<p>Kernel-level threads are managed by the operating system kernel.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+<li>
+<p>User-level threads require kernel intervention for their management.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+<li>
+<p>Using threads can improve the performance of an application by enabling parallelism.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+</ol>
+<h2>Short Answer Questions</h2>
+<ol>
+<li>
+<p>A thread is the _____ unit of processing that can be scheduled by an operating system. </p>
+<ul class="textbox">
+<li><input type="text" data-content="tsellams" data-question="tssseslslsasmsss" placeholder="Enter the correct answer." class="form-control" />
+</ul>
+</li>
+<li>
+<p>Two advantages of using threads over processes are: </p>
+<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> Reduced context switching overhead</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> Improved security as threads within the same process cannot interfere with each other’s data.</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> Improved resource sharing and communication within the same process</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> Kernel-level threading</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> Simplified process scheduling since threads are managed by the operating system.</label></li>
+</ul>
+</li>
+<li>
+<p>Explain the difference between user-level threads and kernel-level threads. --&gt; Fill in the blanks: User-level threads are managed by a user-level library, without _ intervention, leading to faster _ and better performance. Kernel-level threads are managed directly by the _, which allows them to take advantage of multiprocessor systems but involves higher overhead for context switches.</p>
+<ul class="textbox">
+<li><input type="text" data-content="lenrek SO ,sehctiws tcatnoc ,lenrek" data-question="lsesnsrsesks sSsOs s,ssseshscstsiswsss stscsastsnsoscs s,slsesnsrsesks" placeholder="Enter the correct answer." class="form-control" />
+</ul>
+</li>
+<li>
+<p>What is a potential disadvantage of using user-level threads?</p>
+<ul class="textbox">
+<li><input type="text" data-content=".sevlesmeht sdaerht laudividni eht ton ,sdaerht level-resu eht gniniatnoc ssecorp elgnis eht sezingocer ylno lenrek eht esuaceb yltcerid smetsys rossecorpitlum fo egatnavda lluf ekat tonnaC" data-question=".sssesvslsesssmseshsts sssdsasesrshsts slsasusdsisvsisdsnsis seshsts stsosns s,sssdsasesrshsts slsesvsesls-srsesssus seshsts sgsnsisnsisastsnsoscs sssssescsosrsps seslsgsnsisss seshsts ssseszsisnsgsoscsesrs syslsnsos slsesnsrsesks seshsts sesssusascsesbs syslstscsesrsisds sssmsestsssysss srsosssssescsosrspsistslsusms sfsos sesgsastsnsasvsdsas slslsusfs sesksasts stsosnsnsasCs" placeholder="Enter the correct answer." class="form-control" />
+</ul>
+</li>
+<li>
+<p>Why might an application benefit from using threads?</p>
+<ul class="textbox">
+<li><input type="text" data-content=".noitazilitu UPC tneiciffe erom dna msilellarap gnilbane yb ,smetsys rossecorpitlum no yllaicepse ,ecnamrofrep evorpmi nac sihT .ylsuoenatlumis sksat elpitlum mrofrep ot noitacilppa eht gniwolla ,yltnerrucnoc nur nac sdaerht esuaceb sdaerht gnisu morf tifeneb thgim noitacilppa nA" data-question=".snsosistsaszsislsistsus sUsPsCs stsnsesiscsisfsfses sesrsosms sdsnsas smsssislseslslsasrsasps sgsnsislsbsasnses sysbs s,sssmsestsssysss srsosssssescsosrspsistslsusms snsos syslslsasiscsespssses s,sescsnsasmsrsosfsrsesps sesvsosrspsmsis snsascs sssishsTs s.syslsssusosesnsastslsusmsisss sssksssasts seslspsistslsusms smsrsosfsrsesps sosts snsosistsascsislspspsas seshsts sgsnsiswsoslslsas s,syslstsnsesrsrsuscsnsoscs snsusrs snsascs sssdsasesrshsts sesssusascsesbs sssdsasesrshsts sgsnsisssus smsosrsfs stsisfsesnsesbs stshsgsisms snsosistsascsislspspsas snsAs" placeholder="Enter the correct answer." class="form-control" />
+</ul>
+</li>
+</ol>
+        </div>
+    </div>
+    <div id="tg-msg" class="alert" role="alert" style="display: none">
+        <span id="tg-correct-questions"></span> Correct! <br /><b>Rating: <span id="tg-score"></span>%</b>
+    </div>
+    <div class="row">
+        <button id="check-questions" class="btn btn-lg btn-success">Check</button>
+        <button id="reset-questions" class="btn btn-link">Reset All</button>
+    </div>
+    <script type="text/javascript">$(function(){
+    $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){
+        var questionClass = $(this).attr('class');
+        $(this).parent().addClass('question-row').addClass(questionClass);
+        if (questionClass=='radio-list') {
+            $(this).find('input[type="radio"]').attr('name', 'radio-question-' + i);
+        }
+    });
+
+    function checkQuestion() {
+        resetQuestions(true);
+        var questions = $('li.question-row');
+        var total_questions = questions.length;
+        var correct = 0;
+
+        questions.each(function(i, el) {
+            var self = $(this);
+            // Single Question.
+            if (self.hasClass('radio-list')) {
+                if (self.find('input[type="radio"][data-content="1"]:checked').length == 1) {
+                    correct += 1;
+                } else {
+                    self.addClass('text-danger');
+                }
+            }
+            // Textbox Question.
+            if(self.hasClass('textbox')) {
+                var textbox = self.find('input[type="text"]');
+                var correct_text = String(textbox.data("content")).trim().split("").reverse().join("");
+                if(String(textbox.val()).trim().toLowerCase()==correct_text.toLowerCase()) {
+                    correct += 1;
+                } else {
+                    self.addClass('text-danger');
+                    textbox.parent().find("i.text-correct").html(correct_text);
+                }
+            }
+            // Multiple selection Questions.
+            if(self.hasClass('checklist')) {
+                var total_corrects = self.find('input[type="checkbox"][data-content="1"]').length;
+                var total_incorrects = self.find('input[type="checkbox"][data-content="0"]').length;
+                var correct_selected = self.find('input[type="checkbox"][data-content="1"]:checked').length;
+                var incorrect_selected = self.find('input[type="checkbox"][data-content="0"]:checked').length;
+                var qc = +((correct_selected / total_corrects) - (incorrect_selected/total_incorrects)).toFixed(2);
+                if (qc < 0) {
+                    qc = 0;
+                }
+                correct += qc;
+                if (qc == 0) {
+                    self.addClass('text-danger');
+                } else if (qc > 0 && qc < 1) {
+                    self.addClass('text-warning');
+                }
+            }
+        });
+
+        showScore(correct, total_questions);
+    }
+
+    function showScore(correct, total) {
+        var score = (correct / total).toFixed(2) * 100;
+        var msgClass = 'alert-danger';
+        if (score >= 70) {
+            msgClass = 'alert-success';
+        } else if (score >= 50) {
+            msgClass = 'alert-warning';
+        }
+        $('#tg-correct-questions').text(correct + ' out of ' + total);
+        $('#tg-score').text(score);
+        $('#tg-msg').addClass(msgClass).show();
+    }
+    function resetQuestions(keep) {
+        $('li.question-row').removeClass('text-danger').removeClass('text-warning');
+        $('i.text-correct').html('');
+        $('#tg-msg').removeClass('alert-danger').removeClass('alert-success').removeClass('alert-warning').hide();
+        if(keep === true) {
+            return;
+        }
+        $('li.question-row').find('input[type="text"]').val('');
+        $('li.question-row').find('input[type="radio"],input[type="checkbox"]').prop('checked', false);
+    }
+    $('#check-questions').on('click', checkQuestion);
+    $('#reset-questions').on('click', resetQuestions);
+
+});</script>
+</div>
+</body>
+</html>
