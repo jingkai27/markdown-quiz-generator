@@ -1,30 +1,29 @@
-# Week 3 Threads Quiz
+# Week 3 Threads Quiz (need verify answers)
 
 ## Multiple Choice Questions
 1. What is a thread in the context of an operating system?
     - ( ) A process with a single execution sequence
     - ( ) A mechanism for interprocess communication
     - ( ) A component of a Process Control Block (PCB)
-    - ( ) The smallest unit of processing that can be scheduled by the operating system
+    - (x) The smallest unit of processing that can be scheduled by the operating system
 
 2. Which of the following is true about threads within the same process?
     - ( ) They have separate memory spaces
     - ( ) They cannot run concurrently
     - ( ) They do not share data
-    - ( ) They share the same memory and resources
+    - (x) They share the same memory and resources
 
 3. What is the primary benefit of using threads over multiple processes?
     - ( ) Improved security
     - ( ) Simplified scheduling
     - ( ) Increased memory usage
-    - ( ) Reduced context switching overhead
+    - (x) Reduced context switching overhead
 
 4. Which type of threading involves the operating system kernel managing the threads?
     - ( ) User-level threading
     - ( ) Hybrid threading
     - ( ) None of the above
-    - ( ) Kernel-level threading
-
+    - (x) Kernel-level threading
 
 5. What is a disadvantage of user-level threads compared to kernel-level threads?
     - ( ) Higher context switching overhead
@@ -34,23 +33,23 @@
 
 ## True/False Questions
 6. Threads within the same process share the same address space.
-    - ( ) True
+    - (x) True
     - ( ) False
 
 7. Context switching between threads is generally more expensive than between processes.
     - ( ) True
-    - ( ) False
+    - (x) False
 
 8. Kernel-level threads are managed by the operating system kernel.
-    - ( ) True
+    - (x) True
     - ( ) False
 
 9. User-level threads require kernel intervention for their management.
     - ( ) True
-    - ( ) False
+    - (x) False
 
 10. Using threads can improve the performance of an application by enabling parallelism.
-    - ( ) True
+    - (x) True
     - ( ) False
 
 
